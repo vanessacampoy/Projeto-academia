@@ -1,0 +1,36 @@
+.font-1 {
+  font: 400 14px/1.43 "Roboto", sans-serif;
+}
+
+.font-2 {
+  font: 400 16px/1.5 "Roboto", sans-serif;
+}
+
+.font-3 {
+  font: 500 18px/1.35 "Roboto", sans-serif;
+}
+
+.font-4 {
+  font: 400 24px/1.5 "Roboto", sans-serif;
+}
+
+
+.font-5 {
+  font: 500 32px/1.25 "Roboto", sans-serif;
+}
+
+.font-6 {
+  font: 600 32px/1.25 "Rubik", sans-serif;
+}
+
+.font-7 {
+  font: 600 42px/1.40 "Rubik", sans-serif
+}
+
+.font-especial {
+  font-family: "Rubik", sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  letter-spacing: 0.015em;
+  text-transform: uppercase;
+}

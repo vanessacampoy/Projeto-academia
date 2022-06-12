@@ -1,0 +1,100 @@
+ :root { 
+  /* Mulher Fit - Principal */
+  --rosa-claro :#edb2ce;
+  --rosa-antigo :#e094c4;
+  --lilas :#bf69d3;
+  --roxo-original :#AB46D2;
+  --roxo-escuro :#8236a5; 
+  --roxo-azulado :#532470;
+  --azul:#1e0e31; 
+ 
+   
+  /* Mulher Fit - Secundária */
+  --verde-agua :#a0e5e1;
+  --verde-original :#55D8C1;
+  --verde-esmeralda :#47b7a0; 
+ 
+
+  /* Cores Neutras */
+  --branco: #FFFFFF;
+  --cinza: #DADADA;
+  --preto: #020202;
+}
+
+.cor-1 {
+  color: var(--rosa-claro);
+}
+
+.cor-2 {
+  color: var(--rosa-antigo);
+}
+
+.cor-3 {
+  color: var(--lilas);
+}
+
+.cor-4 {
+  color: var(--roxo-original);
+}
+.cor-5 {
+  color: var(--roxo-escuro);
+}
+
+.cor-6 {
+  color: var(--roxo-azulado);
+}
+
+.cor-7 {
+  color: var(--azul);
+}
+
+.cor-8 {
+  color: var(--verde-agua);
+}
+
+.cor-9 {
+  color: var(--verde-original);
+}
+
+.cor-10 {
+  color: var(--verde-esmeralda);
+}
+
+.cor-branco {
+  color: var(--branco);
+}
+
+.cor-cinza {
+  color: var(--cinza);
+}
+
+.cor-preto {
+  color: var(--preto);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Fontes */
+.font-1 {
+  color: var(--branco);
+}
+
+.font-2 {
+  color: var(--cinza);
+}
+
+.font-3 {
+  color: var(--preto);
+}
