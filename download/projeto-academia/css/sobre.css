@@ -1,25 +1,16 @@
-sobre-bg {
-  background-color: var(--verde-agua) url(../img/mulher.yoga.jpg) no-repeat bottom 160px left 20px;
-  box-shadow: inset 0 -120px var(--roxo-original);
-}
-
-.medidas {
-  box-sizing: border-box;
-  max-width: 1200px;
-  padding-left: 20px;
-  padding-right: 20px;
-  margin-left: auto;
-  margin-right: auto;
+.sobre-bg {
+  background: var(--cinza);
+  box-shadow: inset 0 -40px #fff;
 }
 
 .sobre {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 0px 40px;
+  gap: 0px 60px;
 }
 
 .sobre-conteudo {
-  align-self: end;
+  align-self: flex-end;
   padding-bottom: 200px;
 }
 
@@ -27,16 +18,19 @@ sobre-bg {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  border-radius: 4px;
+  border-radius: 0px 0px 2px 2px;
 }
 
 .sobre h1 {
+  margin-top: 70px;
   margin-bottom: 32px;
-  font-size: 64px;
+  width: 420px;
 }
 
 .sobre p {
   margin-bottom: 20px;
+  width: 420px;
+  letter-spacing: 2;
 }
 
 @media (max-width: 800px) {
@@ -46,7 +40,13 @@ sobre-bg {
   }
   .sobre h1 {
     font-size: 32px;
-    margin-bottom: 16px;
+    margin-top: 16px;
+  }
+  .sobre p {
+    font-size: 16px;
+    margin-bottom: 20px;
+    width: 420px;
+    letter-spacing: 2;
   }
   .sobre-bg {
     padding-top: 40px;
@@ -58,5 +58,7 @@ sobre-bg {
  .sobre img {
   height: 300px;
   width: 100%;
+  margin-top: -10px;
+  border-radius: 2px 2px 2px 2px;
  }
 }

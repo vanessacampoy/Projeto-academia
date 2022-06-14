@@ -1,63 +1,39 @@
  :root { 
   /* Mulher Fit - Principal */
-  --rosa-claro :#edb2ce;
-  --rosa-antigo :#e094c4;
-  --lilas :#bf69d3;
-  --roxo-original :#AB46D2;
-  --roxo-escuro :#8236a5; 
+  --roxo :#8236a5; 
   --roxo-azulado :#532470;
-  --azul:#1e0e31; 
- 
    
   /* Mulher Fit - Secundária */
-  --verde-agua :#a0e5e1;
-  --verde-original :#55D8C1;
-  --verde-esmeralda :#47b7a0; 
- 
+  --verde1 :#A4BDB2;
+  --verde2 :#BAD5CA; 
+  --verde3 :#A0E5E1; 
 
+ 
   /* Cores Neutras */
   --branco: #FFFFFF;
-  --cinza: #DADADA;
+  --cinza: #F4F5F8;
   --preto: #020202;
 }
 
+
 .cor-1 {
-  color: var(--rosa-claro);
+  color: var(--roxo);
 }
 
 .cor-2 {
-  color: var(--rosa-antigo);
-}
-
-.cor-3 {
-  color: var(--lilas);
-}
-
-.cor-4 {
-  color: var(--roxo-original);
-}
-.cor-5 {
-  color: var(--roxo-escuro);
-}
-
-.cor-6 {
   color: var(--roxo-azulado);
 }
 
-.cor-7 {
-  color: var(--azul);
+.cor-3 {
+  color: var(--verde1);
 }
 
-.cor-8 {
-  color: var(--verde-agua);
+.cor-4 {
+  color: var(--verde2);
 }
 
-.cor-9 {
-  color: var(--verde-original);
-}
-
-.cor-10 {
-  color: var(--verde-esmeralda);
+.cor-5 {
+  color: var(--verde3);
 }
 
 .cor-branco {

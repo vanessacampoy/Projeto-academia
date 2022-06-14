@@ -1,49 +1,63 @@
-.modadelidades {
-  padding-top: 60px;
-  padding-bottom: 120px;
-}
-
-.modalidades-tipos h2 {
-  margin-bottom: 20px;
-}
-
-.modalidades-tipos ul {
-  display: flex;
-  gap: 40px;
-  padding: 0 20px 20px 20px;
-  max-width: 1400px;
-  overflow-x: auto;
-}
-
-.modalidades-tipos li {
-  flex: 1;
-  min-width: 280px;
-}
-
-.modalidades-tipos img {
-  display: flex;
+.modalidades h2 {
+  margin-left: 40px;
+  margin-top: 60px;
 }
 
 .modalidades-tipos h3 {
-  margin-bottom: 8px;
-  display: flex;
-  align-items: center;
+  margin-top: 20px;
 }
 
 .modalidades-tipos h3::before {
   content: "";
   display: inline-block;
   height: 8px;
-  width: 12px;
+  width: 18px;
   margin-right: 8px;
-  background-color:var(--roxo-escuro);
-  transition: 0.2s;
+  background-color:var(--roxo);
+  margin-left: 5px;
 }
 
-.modalidades-tipos a:hover h3::before {
-  width: 16px;
+.modalidades ul img { 
+  border-radius: 2px;
 }
 
-.modalidades-tipos li {
-  padding-left: 20px;
-}
+.alongamento {
+  background: var(--roxo);
+  box-shadow: inset 0 -70px 380px #fff, inset 0 70px #fff;
+  margin-bottom: 10px;
+  padding: 30px;
+  }
+
+.gravidas {
+  background: var(--roxo);
+  box-shadow: inset 0 -70px 380px #fff, inset 0 70px #fff;
+  margin-top: 60px;
+  padding: 30px;
+  }
+
+.ballet {
+  background: var(--roxo);
+  box-shadow: inset 0 -70px 380px #fff, inset 0 70px #fff;
+  margin-top: 60px;
+  padding: 30px;
+  }
+
+.yoga {
+  background: var(--roxo);
+  box-shadow: inset 0 -70px 380px #fff, inset 0 70px #fff;
+  margin-top: 60px;
+  padding: 30px;
+  }
+
+.pilates {
+  background: var(--roxo);
+  box-shadow: inset 0 -70px 380px #fff, inset 0 70px #fff;
+  margin-top: 60px;
+  padding: 30px;
+  }
+
+
+
+
+
+
